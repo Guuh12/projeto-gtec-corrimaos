@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Gtec Corrimãos',
   description: 'Gerado por Gustavo Yuri',
+  icons: {
+    icon: '/icons/GTEC.ico',
+    shortcut: '/icons/GTEC.ico',
+    apple: '/icons/GTEC.ico',
+  },
 };
 
 export default function RootLayout({
