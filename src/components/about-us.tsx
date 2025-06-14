@@ -13,7 +13,7 @@ export function AboutUs() {
             className="rounded-lg shadow-md"
           />
         </div>
-        <div className="md:order-1">
+        <div className="md:order-1 text-center md:text-left">
           <h2 className="text-3xl font-extrabold mb-4">Sobre Gtec Corrimãos</h2>
           <p className="text-lg text-muted-foreground">
           A Gtec Corrimãos é uma empresa que atua no mercado a mais de 20 anos.

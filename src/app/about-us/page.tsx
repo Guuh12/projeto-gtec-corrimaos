@@ -27,7 +27,7 @@ export default function AboutUs() {
               className="rounded-lg shadow-md"
             />
           </div>
-          <div className="md:order-2">
+          <div className="md:order-2 text-center md:text-left">
             <h2 className="text-2xl font-extrabold mb-4">Gtec Corrimão</h2>
             <p className="text-lg text-muted-foreground mb-4">
             Com mais de 20 anos de atuação no mercado, a Gtec Corrimãos se consolidou como uma referência nacional na 

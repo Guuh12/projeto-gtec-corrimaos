@@ -44,21 +44,38 @@ export function Header() {
           </button>
           </SheetTrigger>
           {open && (
-            <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg sm:max-w-sm w-full px-6 py-4 z-50">
-              <div className="grid gap-4">
-                <div className="text-lg font-bold">Menu</div>
-                {navigationLinks.map((link) => (
-                  <Link
-                    key={link.label}
-                    href={link.href}
-                    className="hover:text-primary transition-colors"
-                    onClick={() => setOpen(false)} // fecha o menu ao clicar no link
+            <>
+              {/* Backdrop */}
+              <div
+                className="fixed inset-0 bg-black bg-opacity-40 z-40"
+                onClick={() => setOpen(false)}
+              />
+              {/* Menu */}
+              <div className="md:hidden fixed left-0 right-0 top-0 bg-white z-50 flex flex-col shadow-lg max-w-sm w-full mx-auto rounded-b-lg">
+                <div className="flex items-center justify-between px-6 py-4 border-b">
+                  <div className="text-lg font-bold">Menu</div>
+                  <button
+                    className="p-2 rounded-md hover:bg-gray-100 transition"
+                    onClick={() => setOpen(false)}
+                    aria-label="Fechar menu"
                   >
-                    {link.label}
-                  </Link>
-                ))}
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+                  </button>
+                </div>
+                <div className="grid gap-4 px-6 py-4">
+                  {navigationLinks.map((link) => (
+                    <Link
+                      key={link.label}
+                      href={link.href}
+                      className="hover:text-primary transition-colors text-lg"
+                      onClick={() => setOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
               </div>
-            </div>
+            </>
           )}
         </Sheet>
       </div>
