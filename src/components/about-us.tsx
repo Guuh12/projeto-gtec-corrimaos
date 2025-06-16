@@ -7,7 +7,7 @@ export function AboutUs() {
         <div className="md:order-2">
           <Image
             src="/images/Foto35.jpg"
-            alt="About Us Image"
+            alt="Sobre imagem Corrimãos Gtec"
             width={500}
             height={300}
             className="rounded-lg shadow-md"

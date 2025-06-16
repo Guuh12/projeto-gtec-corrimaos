@@ -20,8 +20,8 @@ export default function AboutUs() {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
           <div className="md:order-1">
             <Image
-              src="/images/Foto33.jpg"
-              alt="GD Corrimão Team"
+              src="/images/corrimão-ferro1.jpeg"
+              alt="Gtec Corrimãos"
               width={600}
               height={400}
               className="rounded-lg shadow-md"

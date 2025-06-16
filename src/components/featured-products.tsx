@@ -12,32 +12,32 @@ export function FeaturedProducts() {
   const products = [
     {
       id: 1,
-      name: 'Corrimão de Alumínio',
-      image: '/images/foto1.jpg',
+      name: 'Corrimão de Inox',
+      image: '/images/corrimão-aluminio3.jpeg',
       description: 'Solução leve, resistente e moderna para escadas.',
     },
     {
       id: 2,
       name: 'Guarda Corpo de Vidro',
-      image: '/images/foto2.jpg',
+      image: '/images/guarda-corpo-aluminio-vidro3.jpeg',
       description: 'Visual limpo e seguro para sacadas e escadas.',
     },
     {
       id: 3,
-      name: 'Corrimão de Alumínio com Vidro',
-      image: '/images/foto3.jpg',
+      name: 'Corrimão de Inox com Vidro',
+      image: '/images/corrimão-aluminio-vidro1.jpeg',
       description: 'Combinação perfeita entre estilo e proteção.',
     },
     {
       id: 4,
-      name: 'Grade de Proteção Inox',
-      image: '/images/foto4.jpg',
-      description: 'Durabilidade com acabamento refinado.',
+      name: 'Corrimão de Ferro Desenhado',
+      image: '/images/corrimão-ferro-pintado4.jpeg',
+      description: 'Durabilidade com acabamento refinado. Para sua casa ou empresa.',
     },
     {
       id: 5,
-      name: 'Portão de Vidro Temperado',
-      image: '/images/foto5.jpg',
+      name: 'Pega Mão de Inox',
+      image: '/images/pega-mão-aluminio1.jpeg',
       description: 'Segurança e elegância em uma única peça.',
     },
   ];

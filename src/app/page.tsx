@@ -9,12 +9,12 @@ import { Footer } from '@/components/footer';
 
 // Caminhos relativos à pasta /public
 const images = [
-  '/images/foto4.jpg',
-  '/images/foto5.jpg',
-  '/images/foto6.jpg',
-  '/images/foto7.jpg',
-  '/images/foto8.jpg',
-  '/images/foto9.jpg',
+  '/images/corrimão-aluminio-vidro5.jpeg',
+  '/images/corrimão-aluminio6.jpeg',
+  '/images/corrimão-ferro-escovado1.jpeg',
+  '/images/guarda-corpo-aluminio9.jpeg',
+  '/images/guarda-corpo-vidro3.jpeg',
+  '/images/corrimão-aluminio2.1.jpeg',
 ];
 
 export default function Home() {
