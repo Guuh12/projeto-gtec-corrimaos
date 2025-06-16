@@ -14,19 +14,19 @@ export function FeaturedProducts() {
       id: 1,
       name: 'Corrimão de Inox',
       image: '/images/corrimão-aluminio3.jpeg',
-      description: 'Solução leve, resistente e moderna para escadas.',
+      description: 'Solução leve, resistente e moderna para escadas. Ideal para ambientes internos e externos.',
     },
     {
       id: 2,
       name: 'Guarda Corpo de Vidro',
       image: '/images/guarda-corpo-aluminio-vidro3.jpeg',
-      description: 'Visual limpo e seguro para sacadas e escadas.',
+      description: 'Visual limpo e seguro para sacadas e escadas. Perfeito para quem busca sofisticação.',
     },
     {
       id: 3,
       name: 'Corrimão de Inox com Vidro',
       image: '/images/corrimão-aluminio-vidro1.jpeg',
-      description: 'Combinação perfeita entre estilo e proteção.',
+      description: 'Combinação perfeita entre estilo e proteção. Para escadas e varandas.',
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ export function FeaturedProducts() {
       id: 5,
       name: 'Pega Mão de Inox',
       image: '/images/pega-mão-aluminio1.jpeg',
-      description: 'Segurança e elegância em uma única peça.',
+      description: 'Segurança e elegância em uma única peça. Ideal para escadas e corredores.',
     },
   ];
 
